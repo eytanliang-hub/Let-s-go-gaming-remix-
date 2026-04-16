@@ -1,7 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
+
+body {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center;     /* 垂直置中 */
+  background-color: #222;  /* 讓網頁背景跟遊戲背景接近，才不會太突兀 */
+}
+
 canvas {
-  display: block;
+  display: block;          /* 移除畫布下方的微小間隙 */
 }
